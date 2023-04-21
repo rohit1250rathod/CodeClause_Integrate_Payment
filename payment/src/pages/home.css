@@ -1,0 +1,42 @@
+/* .homepage{
+    /* padding-top: 80px; */
+    /* text-align: center;
+    transform: translate(0%,50%); 
+} */
+
+.homepage{
+    background-color: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15));
+    z-index: 1;
+}
+.homecont{
+    padding-top: 80px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    transform: translate(80% ,60%);
+    color: rgb(37, 11, 11);
+}
+.img{
+    width: 100%;
+    height: 620px;
+    position: absolute;
+    z-index: 0;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    opacity: 1.5;
+}
+.about{
+    padding-top: 100px;
+}
+.aboutbox{
+    margin: 10px 10%;
+}
+.aboutbox h2{
+    text-align: center;
+}
+.aboutbox p{
+    padding: 0 5%;
+    text-align: justify;
+}
